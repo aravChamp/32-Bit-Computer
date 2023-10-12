@@ -1,20 +1,6 @@
 `ifndef mux2
 `define mux2
 
-///////////////////////////////////////////////////////////////////////////////
-//
-// N bits two way muxs 
-//
-// This module is an N bits two way muxs 
-//
-// module: N bits two way muxs 
-// hdl: Verilog
-//
-// author: Lei(Raymond) Chi <lei.chi@cooper.edu>
-// author: Arav Sharma <arav.sharma@cooper.edu>
-//
-///////////////////////////////////////////////////////////////////////////////
-
 module mux2 #(parameter N=32)(A, B, S, F);
    //
    // ---------------- PORT DEFINITIONS ----------------
