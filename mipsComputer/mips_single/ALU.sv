@@ -4,8 +4,8 @@
  //ALU alu(srca, srcb, alucontrol, Cout, ALUresult, zero);
 
 module ALU #(parameter N=32)(
-	input wire [N-1:0] A, 
-	input wire [N-1:0] B,
+   input wire [N-1:0] A, 
+   input wire [N-1:0] B,
    input wire [2:0] F,
    output wire Cout, 
    output wire [N-1:0] Y,
