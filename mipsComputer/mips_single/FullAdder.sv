@@ -1,16 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Full Adder
-//
-// This module is a full adder with carry in function built with half adders
-//
-// module: FullAdder
-// hdl: Verilog
-//
-// author: Arav Sharma <arav.sharma@cooper.edu>
-// author: Lei(Raymond) Chi <lei.chi@cooper.edu>
-///////////////////////////////////////////////////////////////////////////////
-
 `ifndef FullAdder
 `define FullAdder
 
