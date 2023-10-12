@@ -1,16 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Sign Extension
-//
-// This module sign extends 16 bit input to 32 bits
-//
-// module: signExtension
-// hdl: Verilog
-//
-// author: Arav Sharma <arav.sharma@cooper.edu>
-// author: Lei(Raymond) Chi <lei.chi@cooper.edu>
-///////////////////////////////////////////////////////////////////////////////
-
 `ifndef signExtension
 `define signExtension
 
