@@ -1,17 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// N bit Register
-//
-// This module is a N bit Register
-//
-// module: N bit Register
-// hdl: Verilog
-//
-// author: Arav Sharma <arav.sharma@cooper.edu>
-// author: Lei(Raymond) Chi <lei.chi@cooper.edu>
-///////////////////////////////////////////////////////////////////////////////
-//`include "dFlipFlop.sv"
-
 
 module nBitDRegister #(parameter N=1) (En, D, Clk, R, Q, Qn);
 
