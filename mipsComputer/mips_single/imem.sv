@@ -1,19 +1,6 @@
 `ifndef imem
 `define imem
 
-///////////////////////////////////////////////////////////////////////////////
-//
-// instruction memory
-//
-// This module is an instruction memory
-//
-// module: instruction memory
-// hdl: Verilog
-//
-// author: Lei(Raymond) Chi <lei.chi@cooper.edu>
-//
-///////////////////////////////////////////////////////////////////////////////
-
 module imem
 // n=bit length of register; r=bit length of addr to limit memory and not crash your verilog emulator
     #(parameter n = 32, parameter r = 6)(
